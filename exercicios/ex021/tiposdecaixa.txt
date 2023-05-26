@@ -1,0 +1,10 @@
+os tipos de caixa sao: box-level(largura do tamanho da tela inteira) e inline-level(largura definida pelo elemento que a caixa é)
+
+elementos do tipo box-level:
+h1>6; p; main; header; nav; article; aside; footer; form; video.
+
+elementos do tipo inline-level:
+span; a; code; small; strong; em; sup-sub; label; button; input; select.
+
+border-style: solid; dashed; dotted; double; groove; hidden; inherit; initial; inset; none; outset; ridge; unset.
+
