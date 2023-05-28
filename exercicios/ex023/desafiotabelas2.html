@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio tabelas 2</title>
+    <style>
+        table{
+            border-collapse:collapse
+        }
+        tr, th, td{
+            border:1px solid black;
+            padding:5px
+        }
+        .colorido{
+            background-color:gray;
+            color:white;
+            font-weight:bold;
+            font-family:arial
+        }
+        #media0, #media1{
+            text-align:left
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr class="colorido">
+                <th rowspan="2">area</th>
+                <th rowspan="2">disciplinas</th>
+                <th colspan="2">notas</th>
+                <th rowspan="2">media</th>
+            </tr>
+            <tr class="colorido">
+                <td>nota 1</td>
+                <td>nota 2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><th rowspan="4">exatas</th>
+                <td>matematica</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td></tr>
+            <tr><td>física</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td></tr>
+            <tr><td>química</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td></tr>
+            <tr><td>biologia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td></tr>
+            <tr><th colspan="4" class="colorido" id="media0">Média de Exatas</th><td class="colorido">0</td></tr>
+            <tr><th rowspan="2">humanas</th>
+                <td>historia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr><td>geografia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td></tr>
+            <tr><th colspan="4" class="colorido" id="media1">Média de Humanas</th>
+            <td class="colorido">0</td></tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
