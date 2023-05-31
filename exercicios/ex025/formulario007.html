@@ -7,6 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="">
+        <p>
+            <label for="iestado">Estado</label>
+            <select name="estado" id="iestado">
+
+                <optgroup label="Região Sudeste">
+                    <option value="Sp">São Paulo</option>
+                    <option value="Rj">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="RN">Rio Grandde do Norte</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="sua mensagem"></textarea>
+        </p>
+    </form>
 </body>
 </html>
