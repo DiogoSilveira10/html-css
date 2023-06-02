@@ -19,7 +19,8 @@ header > h1{
 }
 #burguer:hover{
     background-color:black;
-    color:white
+    color:white;
+    cursor: grab;
 }
 menu{
     display:none
